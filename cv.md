@@ -8,3 +8,23 @@ My main goal is self development. I work in the area of automated technology. I 
 ---
 ## My skills:
 Studied programing at the universite.
+---
+## Example of my code:
+```sh
+function elementPositionComp(elementComputer, nameElem){
+   
+    let textElementComputer = elementComputer.firstChild.textContent;
+   
+    let flag = Number(textElementComputer);
+            for(let index = 0; index < Number(textElementComputer); index++){
+           
+            if( Number(textElementComputer) > 0){            
+            flagElement++;
+                elementComputer.firstChild.textContent = --flag;
+            positionElementRandom(nameElem)
+            
+            }
+}
+}
+
+```
